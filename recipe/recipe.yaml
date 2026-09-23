@@ -1,6 +1,6 @@
 context:
-  version: 0.9.0
-  build_number: "0"
+  version: "0.9.1"
+  build_number: 0
   python_min: "3.12"
 
 package:
@@ -8,8 +8,8 @@ package:
   version: ${{ version }}
 
 source:
-  - url: https://pypi.org/packages/source/t/transformnd/transformnd-${{ version }}.tar.gz
-    sha256: a275f60cacb5e69ed671940a9e442e92185ebedcfead4706be84f16af6ef4147
+  - url: https://files.pythonhosted.org/packages/7d/28/0e039cf912d31c03befd47cb1987fcd76ddeedd9943765fdd47f0b5aa016/transformnd-${{ version }}.tar.gz
+    sha256: f87b9f599b85bcfb4f82d5e1cbedfc915bd72abb3ae478c08cc7882fc700df36
 
 build:
   number: ${{ build_number }}
