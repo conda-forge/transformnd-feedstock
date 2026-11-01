@@ -1,5 +1,5 @@
 context:
-  version: "0.9.2"
+  version: "0.10.1"
   build_number: 0
   python_min: "3.12"
 
@@ -8,8 +8,8 @@ package:
   version: ${{ version }}
 
 source:
-  - url: https://files.pythonhosted.org/packages/56/06/603ac1661eb4c65018901ec4bf8af4159bde8a14100848b151c889509f05/transformnd-${{ version }}.tar.gz
-    sha256: d6e37eb810a1173ede1d98221fd29b5df26717866fb02446d2b91c6ccf4b0dfc
+  - url: https://files.pythonhosted.org/packages/2d/e7/da249d70e1cd6e865d945d10c5acc604d0c4c4c1e85cc355a136872504f3/transformnd-${{ version }}.tar.gz
+    sha256: dfa5f9503c25cdd5a505f72109d10e535fa3e6a87aee3f21b918d2f29718a7df
 
 build:
   number: ${{ build_number }}
